@@ -1,0 +1,11 @@
+/* Import Tailwind CSS v4 core styles */
+@import "tailwindcss";
+
+/* Optional global styles */
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased;
+}
